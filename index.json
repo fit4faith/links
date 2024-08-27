@@ -1,0 +1,87 @@
+{
+  "html": {
+    "lang": "en",
+    "title": "FITSTUD.IO | Links",
+    "description": "Follow on all socials",
+    "favicon": "/favicon.svg"
+  },
+  "background": {
+    "firstColor": "#330000",
+    "secondColor": "#110000"
+  },
+  "header": {
+    "image": "/fitstudio.svg",
+    "alt": "The owner of this website.",
+    "title": "FITSTUD.IO",
+    "description": "A fitness blog built by a nerd for Gym Rats",
+    "textColor": "white"
+  },
+  "socials": [
+    {
+      "network": "Instagram",
+      "username": "FITSTUD.IO",
+      "url": "https://instagram.com/fitstud.io"
+    },
+    {
+      "network": "TikTok",
+      "username": "FITSTUD.IO",
+      "url": "https://tiktok.com/@fitstud.io"
+    },
+    {
+      "network": "Facebook",
+      "username": "FITSTUD.IO",
+      "url": "https://facebook.com/fitstudi0"
+    },
+    {
+      "network": "X",
+      "username": "FITSTUD.IO",
+      "url": "https://x.com/fitstud-io"
+    },
+    {
+      "network": "Mail",
+      "username": "FITSTUD.IO",
+      "url": "mailto:hello@fitstud.io"
+    }
+  ],
+  "featured": [
+    {
+      "network": "Link",
+      "url": "https://fitstud.io",
+      "title": "Go to the blog made for Fitness Freaks",
+      "textColor": "#fff",
+      "backgroundImage": "/runnin.webp",
+      "backgroundColor": null,
+      "borderRadius": ".75rem"
+    }
+  ],
+  "buttons": [
+    {
+      "network": "YouTube",
+      "url": "https://youtube.com/@fitstud",
+      "title": "Subscribe to my Channel on YouTube",
+      "textColor": "#fff",
+      "backgroundColor": "#6a0000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "GitHub",
+      "url": "https://github.com/fitstud-io",
+      "title": "Want to collaborate on the website?",
+      "textColor": "#fff",
+      "backgroundColor": "#6a0000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "BuyMeCoffee",
+      "url": "https://buymecoffee.com/fitstud",
+      "title": "Buy me a ☕ so I can be more creative!",
+      "textColor": "#fff",
+      "backgroundColor": "#6a0000",
+      "borderRadius": ".75rem"
+    }
+  ],
+  "footer": {
+    "copyright": "",
+    "url": ""
+  }
+}
