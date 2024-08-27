@@ -1,123 +1,28 @@
 ---
 import { footer } from "index.json";
-import Section from "@/components/Section.astro";
-
-const { copyright, url } = footer;
+import { YouTube } from 'astro-embed';
 ---
-
-<!-- <Section>
-  <footer>
-    <a
-      class="button"
-      href={url}
-      title={`${copyright}`}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {copyright}
-    </a>
-  </footer>
-</Section>
-
-<style>
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  footer a {
-    color: #fff;
-  }
-
-  .button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    width: 100%;
-    padding: 16px 24px;
-    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    will-change: transform;
-  }
-
-  .button:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
-  }
-
-  .button:active {
-    box-shadow: none;
-    transform: translateY(0);
-  }
-
-</style> -->
-
-
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const loader = document.querySelector(".heart__loader");
-    loader.style.display = "block";
-
-    const loadVideo = async (iframe) => {
-      const cid = "UCFTgB7Dcm6X4yXVJI3W-gGQ"; //this is the user ID from your Youtube channel URL
-      const API_key = "&api_key=wmbjfv0ybbzjsaceaojxrbm9aaelzzq2bbe7mgws"; //in order to get your free public API_key, you will need to create an acc. in https://rss2json.com/
-      const channelURL = encodeURIComponent(`https://www.youtube.com/feeds/videos.xml?channel_id=${cid}`);
-      const reqURL = `https://api.rss2json.com/v1/api.json?rss_url=${channelURL}&api_key=${API_key}`;
-
-      try {
-        const response = await fetch(reqURL);
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const result = await response.json();
-        if (result.items && result.items.length > 0) {
-          const videoNumber = iframe.getAttribute("vnum");
-          const link = result.items[videoNumber].link;
-          const id = link.split("v=")[1];
-          iframe.setAttribute("src", `https://youtube.com/embed/${id}?controls=1&autoplay=0`);
-          loader.style.display = "none"; // Hide the loader after loading the video
-        } else {
-          throw new Error("No videos found in the feed.");
-        }
-      } catch (error) {
-        console.error("Error loading video:", error);
-        loader.style.display = "none"; // Hide loader in case of error
-      }
-    };
-
-    const iframes = document.getElementsByClassName("latestVideoEmbed");
-    if (iframes.length > 0) {
-      loadVideo(iframes[0]);
-    }
-  });
-</script>
 
 <div class="container">
   <h2 class="title">My latest Video ❤️</h2>
-  <img class="heart__loader" src="./gainz.webp" alt="loader" />
-  <iframe
-    class="latestVideoEmbed"
-    vnum="0"
-    width="560"
-    height="315"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-    id="ytchannel"
-    title="YouTube video player"></iframe>
+  <div class="latest">
+    <YouTube id="https://youtu.be/Htl9ppzEkbA" />
+  </div>
 </div>
-
+<div class="footer">
+<p></p>
+</div>
 <style>
+  .footer{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    height: auto;
+  }
   .container {
     width: 100%;
-    margin-top: 2rem;
+    margin: 2rem auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,7 +31,7 @@ const { copyright, url } = footer;
     min-height: 52dvh;
     height: auto;
   }
-  .latestVideoEmbed {
+  .latest {
     width: 100%;
     max-width: 700px;
     height: 315px;
@@ -134,7 +39,7 @@ const { copyright, url } = footer;
     min-width: 337px;
   }
   .title {
-    padding: 1rem 0 2rem 0;
+    padding: 0.5rem 0 2rem 0;
     font-size:x-large;
     color: #ffffff;
   }
