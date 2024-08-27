@@ -19,8 +19,6 @@ Open source links page, customizable via JSON. Made with Astro 4.
 
 </div>
 
-
-
 ## Table of Contents
 
   <ol>
@@ -121,7 +119,7 @@ Just edit the key `network` with any of the following values (case-sensitive):
 
 ## Buy Me a Coffee
 
-If you like this project then  [buymeacoffee](https://buymeacoffee/fitstud.io) so I can spend more time being creative. Please and thank you in advance 😁.
+If you like this project then  [buymeacoffee](https://buymeacoffee.com/fitstud.io) so I can spend more time being creative. Please and thank you in advance 😁.
 
 ## Contributing
 
