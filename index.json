@@ -35,7 +35,7 @@
     {
       "network": "X",
       "username": "FITSTUD.IO",
-      "url": "https://x.com/fitstud-io"
+      "url": "https://x.com/fitstud_io"
     },
     {
       "network": "Mail",
@@ -73,7 +73,7 @@
     },
     {
       "network": "BuyMeCoffee",
-      "url": "https://buymecoffee.com/fitstud",
+      "url": "https://buymeacoffee.com/fitstud.io",
       "title": "Buy me a ☕ so I can be more creative!",
       "textColor": "#fff",
       "backgroundColor": "#6a0000",
