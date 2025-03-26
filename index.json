@@ -1,53 +1,53 @@
 {
   "html": {
     "lang": "en",
-    "title": "FITSTUD.IO | Links",
+    "title": "HUZL.ORG | Links",
     "description": "Follow on all socials",
     "favicon": "/favicon.svg"
   },
   "background": {
-    "firstColor": "#330000",
-    "secondColor": "#110000"
+    "firstColor": "#220000",
+    "secondColor": "#000000"
   },
   "header": {
-    "image": "/fitstudio.svg",
+    "image": "/huzl.svg",
     "alt": "The owner of this website.",
-    "title": "FITSTUD.IO",
-    "description": "A fitness blog built by a nerd for Gym Rats",
+    "title": "HUZL.ORG",
+    "description": "Find your side hustle, get that hustle mindset, live your life!",
     "textColor": "white"
   },
   "socials": [
     {
       "network": "Instagram",
-      "username": "FITSTUD.IO",
-      "url": "https://instagram.com/fitstud.io"
+      "username": "huzl_org",
+      "url": "https://instagram.com/huzl_org"
     },
     {
       "network": "TikTok",
-      "username": "FITSTUD.IO",
-      "url": "https://tiktok.com/@fitstud.io"
+      "username": "huzl_org",
+      "url": "https://tiktok.com/@huzl_org"
     },
     {
       "network": "Facebook",
-      "username": "FITSTUD.IO",
-      "url": "https://facebook.com/fitstudi0"
+      "username": "huzl_org",
+      "url": "https://facebook.com/huzl_org"
     },
     {
       "network": "X",
-      "username": "FITSTUD.IO",
-      "url": "https://x.com/fitstud_io"
+      "username": "huzl_org",
+      "url": "https://x.com/huzl_org"
     },
     {
       "network": "Mail",
-      "username": "FITSTUD.IO",
-      "url": "mailto:hello@fitstud.io"
+      "username": "huzl_org",
+      "url": "mailto:hello@huzl.org"
     }
   ],
   "featured": [
     {
       "network": "Link",
-      "url": "https://fitstud.io",
-      "title": "Go to the blog made for Fitness Freaks",
+      "url": "https://huzl.org",
+      "title": "Go to the blog made for hustlers!",
       "textColor": "#fff",
       "backgroundImage": "/runnin.webp",
       "backgroundColor": null,
@@ -57,7 +57,7 @@
   "buttons": [
     {
       "network": "YouTube",
-      "url": "https://youtube.com/@fitstud",
+      "url": "https://youtube.com/@huzl-org",
       "title": "Subscribe to my Channel on YouTube",
       "textColor": "#fff",
       "backgroundColor": "#6a0000",
@@ -65,7 +65,7 @@
     },
     {
       "network": "GitHub",
-      "url": "https://github.com/fitstud-io",
+      "url": "https://github.com/huzl-org",
       "title": "Want to collaborate on the website?",
       "textColor": "#fff",
       "backgroundColor": "#6a0000",
@@ -73,7 +73,7 @@
     },
     {
       "network": "BuyMeCoffee",
-      "url": "https://buymeacoffee.com/fitstud.io",
+      "url": "https://buymeacoffee.com/huzl",
       "title": "Buy me a ☕ so I can be more creative!",
       "textColor": "#fff",
       "backgroundColor": "#6a0000",
@@ -81,7 +81,7 @@
     }
   ],
   "footer": {
-    "copyright": "2024 © FITSTUD.IO",
-    "url": "https://fitstud.io"
+    "copyright": "2024 © HUZL LLC",
+    "url": "https://huzl.org"
   }
 }

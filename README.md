@@ -1,138 +1,89 @@
-<a id="readme-top"></a>
+<h1 align=center>HUZL.ORG</h1>
+<p align=center>This is a feature-rich, minimal, highly customizable, easy-to-use Astro blog theme for HUZL.ORG.</p>
+<h2 align="center"> <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fbookworm-light-astro.vercel.app%2F&form_factor=desktop">Page Speed (100%)🚀</a>
+</h2>
+<p align=center>
+  <a href="https://github.com/withastro/astro/releases/tag/astro%404.3.2" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=4.3&color=000&logo=astro" />
+  </a>
+  <a href="https://github.com/themefisher/bookworm-light-astro/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/themefisher/bookworm-light-astro" alt="license"></a>
+  <img src="https://img.shields.io/github/languages/code-size/themefisher/bookworm-light-astro" alt="code size">
+  <a href="https://github.com/themefisher/bookworm-light-astro/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/themefisher/bigspring-light-astro" alt="contributors"></a>
+</p>
 
-<div align="center">
+## 🔑Key Features
 
-![Astro](https://astro.build/assets/press/astro-icon-light-gradient.svg)
+- 🎨 Highly Customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
+- 👥 Multi-Author Support
+- 📚 Authors Page
+- 👤 Author Single Page
+- 🔍 Search Functionality with FuseJS
+- 🏷️ Tags and Categories Support
+- 📲 Post Social Share Option
+- 🔗 Similar Post Suggestions
+- ⚡ Fast by Default (95+ Google PageSpeed Score)
+- ⚙️ Netlify Settings Pre-configured
+- 📬 Contact Form Support
+- 🌅 Support OG Image
+- ✍️ Write and Update Content in Markdown / MDX
+- 📚 MDX Components Auto Import
+- 📝 Includes Draft Pages and Posts
+- 🚀 Built with Tailwind CSS Framework
+- 📱 Fully Responsive on Desktops, Tablets, and Smartphones
+- 🔍 SEO Friendly
 
-</div>
+<!-- installation -->
+## 🔧Installation
 
-<h1 align="center">FITSTUD.IO LINKS</h1>
+After downloading the template, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
 
-<div align="center">
+### ⚙️Install prerequisites (once for a machine)
 
-![Astro](https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+- **Node Installation:** [Install node js](https://nodejs.org/en/download/) [Recommended LTS version]
 
-Open source links page, customizable via JSON. Made with Astro 4.
+### 🖥️Local setup
 
-</div>
+After successfully installing those dependencies, open this template with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
 
-## Table of Contents
+- Install dependencies
 
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#json">JSON</a>
-      <ul>
-        <li><a href="#icons">Icons</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
+```
+npm install
+```
 
-## About The Project
+- Run locally
 
-- Create your very own links page for FREE.
-- Use the colors you want and give yourself all the credits for it.
-- And most importantly, update it very easily using JSON.
+```
+npm run dev
+```
 
-<p align="right"><a href="#readme-top">Back to top ⬆</a></p>
+After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live-reload the browser when changes are saved.
 
-## Getting Started
+## 🔨Production Build
 
-### Prerequisites
+After finishing all the customization, you can create a production build by running this command.
 
-- **Node.js** -> `v18.17.1` or `v20.3.0` or higher. (`v19` is not supported)
-- **Visual Studio Code** -> with the [Official Astro Extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
+```
+npm run build
+```
 
-Personally I prefer using `pnpm` instead `npm` and to install it you can use:
+<!-- reporting issue -->
+## 🐞Reporting Issues
 
-  ```sh
-  npm install -g pnpm
-  ```
-### Installation
+We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/huzl-org/site/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/huzl-org/site/issues).
 
-1. Clone this repo to your computer:
-   ```sh
-   git clone git@github.com:fitstud-io/links.git
-   ```
-2. Install Astro dependencies:
-   ```sh
-   cd links
-   pnpm install
-   ```
-3. Run the Astro dev server:
-   ```sh
-   pnpm dev
-   ```
-<p align="right"><a href="#readme-top">Back to top ⬆</a></p>
+<!-- licence -->
+## 📄License
 
-## JSON
+Copyright (c) 2023 - Present, Designed & Developed by [HUZL.ORG](https://huzl-org)
 
-You can modify every aspect of the website very easily, you just have to edit the `index.json` file. This JSON contains the following sections:
+**Code License:** Released under the [MIT](https://github.com/huzl-org/site/blob/main/LICENSE) license.
 
-- **html** -> Edit language, title, description and favicon (replace it in `/public`).
-- **background** -> Use the same color twice for a solid color or use two colors for a gradient color.
-- **header** -> Edit your image (replace it in `/public`), name and description.
-- **socials** -> Add more icons with your socials URL (see the networks available).
-- **featured** -> Highlight links with a background image or color (same as buttons).
-- **buttons** -> Add more buttons with your socials URL (see the networks available).
-- **footer** -> Edit the copyright and URL of the developer (Made just for you 😎).
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
 
-### Icons
+# site
 
-Just edit the key `network` with any of the following values (case-sensitive):
-
-- BuyMeCoffee
-- Discord
-- Facebook
-- GitHub
-- Instagram
-- Link
-- LinkedIn
-- Mail
-- Map
-- Medium
-- Spotify
-- TikTok
-- Twitch
-- WhatsApp
-- X
-- YouTube
-
-> [!NOTE]
-> If you need more open-source icons, visit: [Tabler Icons](https://tabler.io/icons)
-
-<p align="right"><a href="#readme-top">Back to top ⬆</a></p>
-
-## Buy Me a Coffee
-
-If you like this project then  [buymeacoffee](https://buymeacoffee.com/fitstud.io) so I can spend more time being creative. Please and thank you in advance 😁.
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "feature".
-
-**Don't forget to give the project a star!** ⭐
-
-<p align="right"><a href="#readme-top">Back to top ⬆</a></p>
-
-## License
-
-Distributed under the MIT License. `Open Source` is pretty self-descriptive.
-
-<p align="right"><a href="#readme-top">Back to top ⬆</a></p>
+[https://huzl-org](https://huzl-org)
