@@ -1,55 +1,55 @@
 {
   "html": {
     "lang": "en",
-    "title": "HUZL.ORG | Links",
+    "title": "FIT4FAITH.ORG | Links",
     "description": "Follow on all socials",
     "favicon": "/favicon.svg"
   },
   "background": {
-    "firstColor": "#220000",
+    "firstColor": "#770000",
     "secondColor": "#000000"
   },
   "header": {
-    "image": "/huzl.svg",
-    "alt": "The owner of this website.",
-    "title": "HUZL.ORG",
-    "description": "Find your side hustle, get that hustle mindset, live your life!",
+    "image": "/images/logo.svg",
+    "alt": "logo",
+    "title": "FIT4FAITH.ORG",
+    "description": "Stronger in Faith, Fit for Life!",
     "textColor": "white"
   },
   "socials": [
     {
       "network": "Instagram",
-      "username": "huzl_org",
-      "url": "https://instagram.com/huzl_org"
+      "username": "fit4faith_org",
+      "url": "https://instagram.com/fit4faith_org"
     },
     {
       "network": "TikTok",
-      "username": "huzl_org",
-      "url": "https://tiktok.com/@huzl_org"
+      "username": "fit4faith.org",
+      "url": "https://tiktok.com/@fit4faith.org"
     },
     {
-      "network": "Facebook",
-      "username": "huzl_org",
-      "url": "https://facebook.com/huzl_org"
+      "network": "WhatsApp",
+      "username": "fit4faith_org",
+      "url": "https://chat.whatsapp.com/IbJDnOWtrAn09XTtmE7kTe"
     },
     {
       "network": "X",
-      "username": "huzl_org",
-      "url": "https://x.com/huzl_org"
+      "username": "fit4faith_org",
+      "url": "https://x.com/fit4faith_org"
     },
     {
       "network": "Mail",
-      "username": "huzl_org",
-      "url": "mailto:hello@huzl.org"
+      "username": "fit4faith_org",
+      "url": "mailto:hello@fit4faith.org"
     }
   ],
   "featured": [
     {
       "network": "Link",
-      "url": "https://huzl.org",
-      "title": "Go to the blog made for hustlers!",
+      "url": "https://fit4faith.org",
+      "title": "Get Stronger in Faith and Fit for Life!",
       "textColor": "#fff",
-      "backgroundImage": "/runnin.webp",
+      "backgroundImage": "/images/rocky.webp",
       "backgroundColor": null,
       "borderRadius": ".75rem"
     }
@@ -57,31 +57,31 @@
   "buttons": [
     {
       "network": "YouTube",
-      "url": "https://youtube.com/@huzl-org",
+      "url": "https://youtube.com/@fit4faith-org",
       "title": "Subscribe to my Channel on YouTube",
       "textColor": "#fff",
-      "backgroundColor": "#6a0000",
+      "backgroundColor": "#fe646f",
       "borderRadius": ".75rem"
     },
     {
       "network": "GitHub",
-      "url": "https://github.com/huzl-org",
+      "url": "https://github.com/fit4faith",
       "title": "Want to collaborate on the website?",
       "textColor": "#fff",
-      "backgroundColor": "#6a0000",
+      "backgroundColor": "#fe646f",
       "borderRadius": ".75rem"
     },
     {
       "network": "BuyMeCoffee",
-      "url": "https://buymeacoffee.com/huzl",
+      "url": "https://buymeacoffee.com/fit4faith.org",
       "title": "Buy me a ☕ so I can be more creative!",
       "textColor": "#fff",
-      "backgroundColor": "#6a0000",
+      "backgroundColor": "#fe646f",
       "borderRadius": ".75rem"
     }
   ],
   "footer": {
-    "copyright": "2024 © HUZL LLC",
-    "url": "https://huzl.org"
+    "copyright": "2024 © FIT4FAITH.ORG",
+    "url": "https://fit4faith.org"
   }
 }

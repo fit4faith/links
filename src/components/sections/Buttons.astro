@@ -51,9 +51,7 @@ const SOCIAL_ICONS: Record<string, any> = {
               href={url}
               class="button"
               target="_blank"
-              style={`
-                color:${textColor};
-                border-radius:${borderRadius};`}
+              style={`border-radius:${borderRadius};`}
             >
               <Icon />
               {title}
@@ -73,7 +71,8 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
 
   .button {
-    background-color: #6a0000;
+    background-color: #fe646f;
+    color: #fff;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +87,8 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
 
   .button:hover {
-    background-color: #ff0000; 
+    background-color: #fff;
+    color: #fe646f;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
   }
